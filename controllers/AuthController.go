@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"github.com/VoidArtanis/go-rest-boilerplate/middlewares"
-	"github.com/VoidArtanis/go-rest-boilerplate/shared"
 	"github.com/gin-gonic/gin"
+	"github.com/handharbeni/annos-api/middlewares"
+	"github.com/handharbeni/annos-api/shared"
 )
 
 type AuthController struct{}

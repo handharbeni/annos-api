@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"github.com/VoidArtanis/go-rest-boilerplate/controllers"
 	"github.com/gin-gonic/gin"
+	"github.com/handharbeni/annos-api/controllers"
 )
 
 func RegisterPublicRoutes(r *gin.Engine) {

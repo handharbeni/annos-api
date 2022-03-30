@@ -6,8 +6,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/VoidArtanis/go-rest-boilerplate/routes"
-	"github.com/VoidArtanis/go-rest-boilerplate/shared"
+	"github.com/handharbeni/annos-api/routes"
+	"github.com/handharbeni/annos-api/shared"
 )
 
 var DB = make(map[string]string)

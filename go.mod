@@ -1,9 +1,8 @@
-module annos-api
+module github.com/handharbeni/annos-api
 
 go 1.18
 
 require (
-	github.com/VoidArtanis/go-rest-boilerplate v0.0.0-20171106114442-315cdd5f775f
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-gonic/gin v1.7.7
 	github.com/jinzhu/gorm v1.9.16

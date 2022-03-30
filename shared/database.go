@@ -1,12 +1,12 @@
-/**
- * Created by VoidArtanis on 10/22/2017
- */
-
 package shared
 
-import "fmt"
-import "github.com/jinzhu/gorm"
-import _ "github.com/jinzhu/gorm/dialects/postgres"
+import (
+	"fmt"
+
+	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/postgres"
+)
+
 //import _ "github.com/jinzhu/gorm/dialects/mysql"
 // import _ "github.com/jinzhu/gorm/dialects/sqlite"
 // import _ "github.com/jinzhu/gorm/dialects/mssql"
@@ -16,7 +16,7 @@ var err error
 
 /*
 dbType can be 'MySql', 'Postrges', ''
- */
+*/
 func Init() {
 	////MySQL
 	//db, err = gorm.Open("mysql", "user:password@/dbname?charset=utf8&parseTime=True&loc=Local")
@@ -36,7 +36,6 @@ func Init() {
 
 	//db.AutoMigrate(&models.Person{})
 }
-
 
 func GetDb() *gorm.DB {
 	return db

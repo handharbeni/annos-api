@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"github.com/VoidArtanis/go-rest-boilerplate/controllers"
-	"github.com/VoidArtanis/go-rest-boilerplate/middlewares"
 	"github.com/gin-gonic/gin"
+	"github.com/handharbeni/annos-api/controllers"
+	"github.com/handharbeni/annos-api/middlewares"
 )
 
 func RegisterProtectedRoutes(r *gin.Engine) {
